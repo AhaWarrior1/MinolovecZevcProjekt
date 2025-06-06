@@ -1,5 +1,5 @@
 TODO:
--Naredi posebej dokument za CSS
+-Naredi posebej dokument za CSS (DONE!)
 -Sistem za račune, povezava s podatkovno bazo (hash passwordov!)
 -Admin page, moderacija in kaži prijave
 -Izračunaj statistike, izpiši ko je uporabnik vpisan
