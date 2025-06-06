@@ -9,3 +9,4 @@ TODO:
 -Lose condition
 -Shrani podatke na leaderboard in v statistike. Shrani seed igre
 -Sanitizacija vnosov
+-Shranjevanje in pošiljanje komentarjev
