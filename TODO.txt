@@ -1,0 +1,11 @@
+TODO:
+-Naredi posebej dokument za CSS
+-Sistem za račune, povezava s podatkovno bazo (hash passwordov!)
+-Admin page, moderacija in kaži prijave
+-Izračunaj statistike, izpiši ko je uporabnik vpisan
+-Javascript minolovec povezan z upirabniškim vmesnikom
+-Timer za igro
+-Win condition
+-Lose condition
+-Shrani podatke na leaderboard in v statistike. Shrani seed igre
+-Sanitizacija vnosov
