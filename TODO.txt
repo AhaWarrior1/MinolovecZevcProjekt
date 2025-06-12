@@ -1,12 +1,12 @@
 TODO:
 -Naredi posebej dokument za CSS (DONE!)
--Sistem za račune, povezava s podatkovno bazo (hash passwordov!)
+-Sistem za račune, povezava s podatkovno bazo (hash passwordov!) (DONE)
 -Admin page, moderacija in kaži prijave
--Izračunaj statistike, izpiši ko je uporabnik vpisan
--Javascript minolovec povezan z upirabniškim vmesnikom
--Timer za igro
--Win condition
--Lose condition
--Shrani podatke na leaderboard in v statistike. Shrani seed igre
+-Izračunaj statistike, izpiši ko je uporabnik vpisan (DONE)
+-Javascript minolovec povezan z upirabniškim vmesnikom (HALF DONE)
+-Timer za igro (DONE)
+-Win condition (DONE)
+-Lose condition (DONE)
+-Shrani podatke na leaderboard in v statistike. (DONE)
 -Sanitizacija vnosov
--Shranjevanje in pošiljanje komentarjev
+-Shranjevanje in pošiljanje komentarjev (DONE)
