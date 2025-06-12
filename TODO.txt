@@ -13,3 +13,4 @@ TODO:
 -Viri
 -Preglej CSS
 -Polepšaj format. Leaderboarde/statistike da so od zgoraj do dna strani. (box)
+-Footer/header?
