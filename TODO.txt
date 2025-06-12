@@ -10,3 +10,5 @@ TODO:
 -Shrani podatke na leaderboard in v statistike. (DONE)
 -Sanitizacija vnosov
 -Shranjevanje in pošiljanje komentarjev (DONE)
+-Viri
+-Preglej CSS
