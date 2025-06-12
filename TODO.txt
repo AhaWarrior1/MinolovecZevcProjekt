@@ -12,3 +12,4 @@ TODO:
 -Shranjevanje in pošiljanje komentarjev (DONE)
 -Viri
 -Preglej CSS
+-Polepšaj format. Leaderboarde/statistike da so od zgoraj do dna strani. (box)
