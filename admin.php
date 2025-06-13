@@ -228,7 +228,6 @@ $topResults = mysqli_query($connection, $topResultsQuery);
             margin: 2px;
             border: none;
             border-radius: 4px;
-            cursor: pointer;
             font-size: 12px;
         }
         
@@ -275,8 +274,6 @@ $topResults = mysqli_query($connection, $topResultsQuery);
         .comment-preview {
             max-width: 300px;
             overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
         }
         
         .admin-level-badge {
@@ -312,7 +309,6 @@ $topResults = mysqli_query($connection, $topResultsQuery);
             </div>
         <?php } ?>
 
-        <!-- Statistics Section -->
         <div class="admin-section">
             <h2>System Statistics</h2>
             <div class="stats-grid">
@@ -335,7 +331,6 @@ $topResults = mysqli_query($connection, $topResultsQuery);
             </div>
         </div>
 
-        <!-- User Management Section -->
         <div class="admin-section">
             <h2>Recent Users</h2>
             <table class="data-table">
@@ -417,7 +412,6 @@ $topResults = mysqli_query($connection, $topResultsQuery);
             </table>
         </div>
 
-        <!-- Comments Management Section -->
         <div class="admin-section">
             <h2>Recent Comments</h2>
             <table class="data-table">
@@ -452,7 +446,6 @@ $topResults = mysqli_query($connection, $topResultsQuery);
             </table>
         </div>
 
-        <!-- Results Management Section -->
         <div class="admin-section">
             <h2>Top Results</h2>
             <table class="data-table">
