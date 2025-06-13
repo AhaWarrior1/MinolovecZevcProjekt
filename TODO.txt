@@ -1,17 +1,17 @@
 TODO:
 -Naredi posebej dokument za CSS (DONE!)
 -Sistem za račune, povezava s podatkovno bazo (hash passwordov!) (DONE)
--Admin page, moderacija in kaži prijave
+-Admin page, moderacija in kaži prijave (DONE)
 -Izračunaj statistike, izpiši ko je uporabnik vpisan (DONE)
 -Javascript minolovec povezan z upirabniškim vmesnikom (HALF DONE)
 -Timer za igro (DONE)
 -Win condition (DONE)
 -Lose condition (DONE)
 -Shrani podatke na leaderboard in v statistike. (DONE)
--Sanitizacija vnosov
 -Shranjevanje in pošiljanje komentarjev (DONE)
--Viri
--Preglej CSS
--Polepšaj format. Leaderboarde/statistike da so od zgoraj do dna strani. (box)
--Footer/header?
--Add admin perm account for Zevc in link file
+-Viri (DONE)
+-Predelaj CSS (DONE)
+-Polepšaj format. Leaderboarde/statistike da so od zgoraj do dna strani. (DONE)
+-Footer/header? (DONE)
+-Add admin perm account for Zevc in link file (DONE)
+-Sanitizacija vnosov
