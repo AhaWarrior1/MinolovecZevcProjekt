@@ -14,3 +14,4 @@ TODO:
 -Preglej CSS
 -Polepšaj format. Leaderboarde/statistike da so od zgoraj do dna strani. (box)
 -Footer/header?
+-Add admin perm account for Zevc in link file
