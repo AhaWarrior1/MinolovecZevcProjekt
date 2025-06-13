@@ -1,4 +1,3 @@
-/* Base Reset and Defaults */
 * {
   box-sizing: border-box;
 }
@@ -22,7 +21,6 @@ h1 { font-size: 2em; }
 h2 { font-size: 1.3em; border-bottom: 1px solid #ccc; padding-bottom: 5px; }
 h3 { font-size: 1.1em; }
 
-/* Layout Containers */
 .container, .game-container, .form-container, .admin-container {
   max-width: 1000px;
   margin: 0 auto;
@@ -42,7 +40,6 @@ h3 { font-size: 1.1em; }
   justify-content: center;
 }
 
-/* Generic Box / Card */
 .box, .form-container, .comment-box, .admin-section {
   background: #fff;
   border: 1px solid #ccc;
@@ -50,7 +47,6 @@ h3 { font-size: 1.1em; }
   padding: 16px;
 }
 
-/* Buttons and Links */
 a, button {
   display: inline-block;
   padding: 8px 16px;
@@ -72,7 +68,6 @@ button:active, a:active {
   background: #bbb;
 }
 
-/* Header / Navigation */
 .header {
   background: #e0e0e0;
   padding: 10px;
@@ -84,7 +79,6 @@ button:active, a:active {
   margin: 0 8px;
 }
 
-/* Forms */
 input, textarea, select {
   width: 100%;
   padding: 10px;
@@ -101,7 +95,6 @@ label {
   font-weight: bold;
 }
 
-/* Messages */
 .success, .error {
   padding: 10px;
   border-radius: 3px;
@@ -177,7 +170,6 @@ label {
 .win  { color: #4caf50; }
 .lose { color: #e53935; }
 
-/* Comments */
 .comment {
   background: #f9f9f9;
   padding: 10px;
@@ -196,7 +188,7 @@ label {
   color: #777;
 }
 
-/* Tables (Admin) */
+/* Admin tables */
 .data-table {
   width: 100%;
   border-collapse: collapse;
@@ -215,7 +207,6 @@ label {
 
 /* Admin Cards */
 .stat-card {
-  flex: 1;
   min-width: 180px;
   background: #eee;
   padding: 20px;
@@ -224,12 +215,10 @@ label {
   font-weight: bold;
 }
 
-/* Status Labels */
 .status-banned     { color: #e53935; font-weight: bold; }
 .status-admin      { color: #4caf50; font-weight: bold; }
 .status-superadmin { color: #6a1b9a; font-weight: bold; }
 
-/* Admin Panel Specific Styles */
 .admin-container {
   max-width: 1200px;
   margin: 20px auto;
@@ -253,7 +242,6 @@ label {
 
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
   margin-bottom: 20px;
 }
@@ -354,7 +342,6 @@ label {
   color: white;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .flex, .game-info {
     flex-direction: column;
@@ -366,7 +353,6 @@ label {
     margin: 5px 0;
   }
 }
-/* Footer Styles */
 .site-footer {
     background-color: #e0e0e0;
     padding: 15px 0;
@@ -394,7 +380,6 @@ label {
     text-decoration: underline;
 }
 
-/* Sources page styles */
 .sources-list {
     text-align: left;
     padding: 0 20px;
