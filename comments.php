@@ -82,8 +82,8 @@ if ($gameResult['width'] && $gameResult['height'] && $gameResult['mine_count']) 
             <?php } else { ?>
                 <?php foreach ($comments as $comment) { ?>
                     <div class="comment">
-                        <p><?php echo nl2br($comment['content']); ?></p>
-                        <small>- <?php echo $comment['username']; ?>
+                        <p><?php echo $comment['content']; ?></p>
+                        <small class="comment-meta">- <?php echo $comment['username']; ?>
                             (<?php echo date('M j, Y \a\t H:i', strtotime($comment['post_time'])); ?>)</small>
                     </div>
                 <?php } ?>
@@ -97,5 +97,6 @@ if ($gameResult['width'] && $gameResult['height'] && $gameResult['mine_count']) 
             </form>
         </div>
     </div>
+        <?php include 'footer.php'; ?>
 </body>
 </html>

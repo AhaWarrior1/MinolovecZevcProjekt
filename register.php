@@ -46,43 +46,40 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <h1>MINOLOVEC - REGISTER</h1>
-    <div class="login-container">
+    
+    <div class="form-container">
         <?php if (isset($error)) { ?>
             <div class="error"><?php echo htmlspecialchars($error); ?></div>
         <?php } ?>
         
         <?php if (isset($success)) { ?>
             <div class="success"><?php echo htmlspecialchars($success); ?></div>
-            <a href="login.php" class="button-link">LOGIN NOW</a>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="login.php" class="button-link">LOGIN NOW</a>
+            </div>
         <?php } else { ?>
             <form method="POST">
-                <div>
-                    <label for="username">Username:</label><br>
-                    <input type="text" id="username" name="username" required>
-                </div>
-                <br>
-                <div>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <br>
-                <div>
-                    <label for="password">Password:</label><br>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <br>
-                <div>
-                    <label for="confirm_password">Confirm Password:</label><br>
-                    <input type="password" id="confirm_password" name="confirm_password" required>
-                </div>
-                <br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+                
                 <button type="submit">REGISTER</button>
             </form>
         <?php } ?>
         
-        <br>
-        <a href="login.php" class="button-link">ALREADY HAVE ACCOUNT?</a>
-        <a href="index.php" class="button-link">BACK TO HOME</a>
+        <div style="margin-top: 20px;">
+            <a href="login.php" class="button-link">ALREADY HAVE ACCOUNT?</a>
+            <a href="index.php" class="button-link">BACK TO HOME</a>
+        </div>
     </div>
+        <?php include 'footer.php'; ?>
 </body>
 </html>

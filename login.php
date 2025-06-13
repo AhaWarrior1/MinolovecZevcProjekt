@@ -8,7 +8,7 @@ if (isLoggedIn()) {
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = trim($_POST['username']);
-    $password = $_POST['password'];
+    $password = trim($_POST['password']);
     
     if (!empty($username) && !empty($password)) {
         $result = mysqli_query($connection, "SELECT id_users, username, password, banned FROM users WHERE username = '$username'");
@@ -36,33 +36,33 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minolovec - Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>MINOLOVEC - LOGIN</h1>
-    <div class="login-container">
+    
+    <div class="form-container">
         <?php if (isset($error)): ?>
             <div class="error"><?php echo htmlspecialchars($error); ?></div>
         <?php endif; ?>
         
         <form method="POST">
-            <div>
-                <label>Username:</label><br>
-                <input type="text" name="username" required>
-            </div>
-            <br>
-            <div>
-                <label>Password:</label><br>
-                <input type="password" name="password" required>
-            </div>
-            <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            
             <button type="submit">LOGIN</button>
         </form>
         
-        <br>
-        <a href="register.php" class="button-link">CREATE ACCOUNT</a>
-        <a href="index.php" class="button-link">BACK TO HOME</a>
+        <div style="margin-top: 20px;">
+            <a href="register.php" class="button-link">CREATE ACCOUNT</a>
+            <a href="index.php" class="button-link">BACK TO HOME</a>
+        </div>
     </div>
+        <?php include 'footer.php'; ?>
 </body>
 </html>
